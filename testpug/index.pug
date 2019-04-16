@@ -1,0 +1,24 @@
+include fieldset.pug
+
+mixin createButton(type)
+button(type="#{type}")= type.toUpperCase()
+
+
+
+
+
+doctype html
+html
+    head
+        title MY PUG
+    body
+        div
+            h1 Form
+            form(action="#", method="POST", terget="_blank")
+                +findsetWrapper('Anagrafica')
+                +findsetWrapper('Utente')
+                +findsetWrapper('Note')
+                +createButton('reset')
+                +createButton('submit')
+               
+                        

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM</title>
+    </head>
+    <body>
+        <h1>FORM</h1>
+        <form action="https://www.google.com" method="POST" target="_blank">
+        <fieldset>
+            <legend>ANAGRAFICA</legend><br></br>
+            <div>
+                    <label for="form_name">NAME</label></br>
+            <input id="form_name" type="text" name="name"/>
+            <br></br>
+            <label for="form_surname">SURNAME</label></br>
+            <input id="form_surname" type="text" name="surname"/>
+            <br></br>
+            <label for="form_password">PASSWORD</label></br>
+            <input id="form_password" type="text" name="password"/>
+            <br></br>
+            <label for="form_gender">GENDER</label></br>
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+            <br></br>
+            <label for="form_citta">CITTÀ</label></br>
+            <select id="form_citta" type="text" name="citta" >
+                <option value="gela">GELA</option>
+                <option value="milano">MILANO</option>
+                <option value="roma">ROMA</option>
+            </select>
+
+        </div>
+        </fieldset>
+        <fieldset>
+            <legend>UTENZA</legend><br></br>
+            <div>
+                    <label for="form_username">USERNAME</label></br>
+                    <input id="form_username" type="text" name="username"/>
+                    <br></br>
+                    <label for="form_password">PASSWORD</label></br>
+            <input id="form_password" type="text" name="password"/>
+            <br></br>
+            <label for="form_password2">PASSWORD2</label></br>
+            <input id="form_password2" type="text" name="password2"/>
+            <br></br>
+            <label for="form_email">EMAIL</label></br>
+            <input id="form_email" type="text" name="email"/>
+            <br></br>
+
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>NOTE</legend>
+            <div>
+                    <label for="form_camponote">CAMPO NOTE</label></br>
+                    <input id="form_camponote" type="text" name="camponote"/>
+            </div>
+        </fieldset>
+        <button type="reset">RESET</button>
+        <button type="submit">SUBMIT</button>
+        </form>
+    </body>
+</html>

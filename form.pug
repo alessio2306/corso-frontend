@@ -1,0 +1,47 @@
+doctype html
+html
+    head
+        title FORM
+    body
+        div
+            h1 FORM
+            form(action="https://www.google.com", method="POST", target="_blank")
+                fildset
+                    legend ANAGRAFICA
+                div 
+                    label(for="form_name") NAME
+                    input(id="form_name", type="text", name="name")
+                    br
+                    label(for="form_surname") SURNAME
+                    input(id="form_surname", type="text", name="surname")
+                    br
+                    label(for="form_gender") GENDER
+                    input(id="form_gender", type="text", name="gender")
+                    br
+                    label(for="form_city") CITY
+                    select(for="form_city", type="text", name="city")
+                        options(value="milano") MILANO
+                        options(values="gela") GELA
+                        options(values="roma") ROMA
+                fildset
+                    legend UTENZA
+                div
+                    label(for="form_username") USERNAME
+                    input(id="form_username", type="text", name="username")
+                    br
+                    label(for="form_password") PASSWORD
+                    input(id="form_password", type="text", name="password")
+                    br
+                    label(for="form_password2") PASSWORD2
+                    input(id="form_password2", type="text", name="password2")
+                    br
+                    label(for="form_email") EMAIL
+                    input(id="form_email", type="text", name="email")
+                fildset
+                    legend NOTES FIELD
+                div
+                    label(for="form_notesfield") NOTES FIELD
+                    input(id="form_notesfield", type="text", name="notesfield")
+
+  button(type="reset") RESET
+  button(type="submit") SUBMIT                         
